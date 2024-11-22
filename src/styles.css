@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    /* Main theme  */
+    --primary-color : #026467;
+    --secondary-color : #EEFFEE;
+
+    /* Text color  */
+    --primary-text-color : #5599CC;
+    --secondary-text-color: #000080;
+
+    /* Body color  */
+    --body-text-color : #596392;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+
+}
+
+.rajdhani-light {
+    font-family: "Rajdhani", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rajdhani-regular {
+    font-family: "Rajdhani", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rajdhani-medium {
+    font-family: "Rajdhani", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rajdhani-semibold {
+    font-family: "Rajdhani", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .rajdhani-bold {
+    font-family: "Rajdhani", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  body {
+    font-size: 12px;
+
+  }
