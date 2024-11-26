@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  blogTile :string = 'Angular App' ;
+  blogTitle :string = 'Angular Blog App' ;
 
 }
